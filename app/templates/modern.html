@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ meta_desc }}">
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; max-width: 800px; margin: auto; padding: 2rem; }
+    h1 { color: #007ACC; }
+    h2 { color: #333; border-bottom: 1px solid #ccc; padding-bottom: 0.3rem; }
+  </style>
+</head>
+<body>
+  <h1>{{ title }}</h1>
+  {% for sec, content in sections.items() %}
+    <section><h2>{{ sec }}</h2><p>{{ content }}</p></section>
+  {% endfor %}
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ meta_desc }}">
+  <style>
+    body { background-color: #f5f5f5; color: #222; font-family: Arial, sans-serif; padding: 2rem; }
+    h1 { color: #2a52be; }
+    h2 { color: #333; }
+  </style>
+</head>
+<body>
+  <h1>{{ title }}</h1>
+  {% for sec, content in sections.items() %}
+    <section><h2>{{ sec }}</h2><p>{{ content }}</p></section>
+  {% endfor %}
+</body>
+</html>
