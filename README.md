@@ -10,6 +10,7 @@
 
    ```bash
    docker-compose up --build
+   ```
 
 ## Main Features
 
