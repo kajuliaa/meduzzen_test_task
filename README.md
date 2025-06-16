@@ -2,7 +2,7 @@
 
 ---
 
-## Quick Start 
+## Installation 
 
 
  **Start the app**  
