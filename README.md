@@ -6,7 +6,7 @@
 
 
  **Start the app**  
-   Run with Docker Compose:
+
 
    ```bash
    docker-compose up --build
